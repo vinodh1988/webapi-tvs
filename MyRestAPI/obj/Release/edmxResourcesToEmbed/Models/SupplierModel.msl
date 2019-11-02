@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dsourcesModel1StoreContainer" CdmEntityContainer="dsourcesEntities3">
+    <EntitySetMapping Name="supplymasters">
+      <EntityTypeMapping TypeName="dsourcesModel1.supplymaster">
+        <MappingFragment StoreEntitySet="supplymaster">
+          <ScalarProperty Name="sno" ColumnName="sno" />
+          <ScalarProperty Name="Custcode" ColumnName="Custcode" />
+          <ScalarProperty Name="partno" ColumnName="partno" />
+          <ScalarProperty Name="supplymonth" ColumnName="supplymonth" />
+          <ScalarProperty Name="Module" ColumnName="Module" />
+          <ScalarProperty Name="productcode" ColumnName="productcode" />
+          <ScalarProperty Name="custgroup" ColumnName="custgroup" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="recordtype" ColumnName="recordtype" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

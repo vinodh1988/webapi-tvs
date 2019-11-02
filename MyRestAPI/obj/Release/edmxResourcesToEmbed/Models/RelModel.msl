@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dsourcesModel3StoreContainer" CdmEntityContainer="dsourcesEntities5">
+    <EntitySetMapping Name="Branches">
+      <EntityTypeMapping TypeName="dsourcesModel3.Branch">
+        <MappingFragment StoreEntitySet="Branch">
+          <ScalarProperty Name="did" ColumnName="did" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="dsourcesModel3.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="sno" ColumnName="sno" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="did" ColumnName="did" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
